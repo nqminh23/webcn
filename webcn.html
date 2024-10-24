@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Cá Nhân</title>
+    <link rel="stylesheet" href="webcn.css" />
+  </head>
+  <body>
+    <video autoplay muted loop class="background-video">
+      <source src="9665235-Hd 1920 1080 25Fps.mp4" type="video/mp4" />
+    </video>
+    <div class="banner">
+      <h1 class="banner-title">Portfolio</h1>
+    </div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="about">
+      <h2>HOME</h2>
+      <div class="about-content">
+        <img
+          src="https://i.pinimg.com/originals/9a/63/e1/9a63e148aaff53532b045f6d1f09d762.webp"
+          alt="Avatar"
+          class="avatar"
+        />
+        <p>Tôi là 1 sinh viên năm 2 nghành CNTT Trường Đại học Thủ Đô Hà Nội</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>SKILLS</h2>
+      <div class="skill-container">
+        <div class="skill" data-skill="HTML">
+          <img
+            src="https://icons.iconarchive.com/icons/cornmanthe3rd/metronome/512/Other-html-5-icon.png"
+            alt="HTML"
+            class="skill-icon"
+          />
+          HTML
+        </div>
+        <div class="skill" data-skill="CSS">
+          <img
+            src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-512.png"
+            alt="CSS"
+            class="skill-icon"
+          />
+          CSS
+        </div>
+        <div class="skill" data-skill="JavaScript">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/027/127/560/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"
+            alt="JavaScript"
+            class="skill-icon"
+          />
+          JavaScript
+        </div>
+        <div class="skill" data-skill="Figma">
+          <img
+            src="https://cdn.jim-nielsen.com/macos/512/figma-2021-05-05.png?rf=1024"
+            alt="Figma"
+            class="skill-icon"
+          />
+          Figma
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>PROJECT</h2>
+      <div class="project-grid">
+        <div class="project" onclick="showTasks(1)">Buổi 1</div>
+        <div class="tasks" id="tasks-1">
+          <ul>
+            <li><a href="">Bài tập </a></li>
+          </ul>
+        </div>
+
+        <div class="project" onclick="showTasks(2)">Buổi 2</div>
+        <div class="tasks" id="tasks-2">
+          <ul>
+            <li>
+              <a href="https://nqminh23.github.io/Bai1_buoi2/bai1.html"
+                >Bài tập 1</a
+              >
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/Bai2_buoi2/bai2.1.html"
+                >Bài tập 2.1</a
+              >
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/Bai2_buoi2/bai2.2.html"
+                >Bài tập 2.2</a
+              >
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/Bai2_buoi2/bai2.3.html"
+                >Bài tập 2.3</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="project" onclick="showTasks(3)">Buổi 3</div>
+        <div class="tasks" id="tasks-3">
+          <ul>
+            <li>
+              <a href="https://nqminh23.github.io/Bai2_b3/BT2.html"
+                >Bài tập 2</a
+              >
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/B3.1_b3/BT3_1.html"
+                >Bài tập 3.1</a
+              >
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/Bai3.2_b3/BT3_2.html"
+                >Bài tập 3.2</a
+              >
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/Bai3.3_b3/BT3_3.html"
+                >Bài tập 3.3</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="project" onclick="showTasks(4)">Buổi 4</div>
+        <div class="tasks" id="tasks-4">
+          <ul>
+            <li>
+              <a href="https://nqminh23.github.io/bai1_b4/bai1_b4.html"
+                >Bài tập 1</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="project" onclick="showTasks(5)">Buổi 5</div>
+        <div class="tasks" id="tasks-5">
+          <ul>
+            <li>
+              <a href="https://nqminh23.github.io/bai1_b5/bt1_b5.html"
+                >Bài tập 1</a
+              >
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/bai2_b5/bt2_b5.html"
+                >Bài tập 2</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="project" onclick="showTasks(6)">Buổi 6</div>
+        <div class="tasks" id="tasks-6">
+          <ul>
+            <li>
+              <a href="https://nqminh23.github.io/bai1_b6/bai1_b6.html"></a>Bài
+              tập 1
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/bai2_b6/bai2_b6"></a>Bài tập 2
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/bai3_b6/bai3_b6.html"></a>Bài
+              tập 3
+            </li>
+          </ul>
+        </div>
+        <div class="project" onclick="showTasks(7)">Buổi 7</div>
+        <div class="tasks" id="tasks-7">
+          <ul>
+            <li>
+              <a href="https://nqminh23.github.io/buoi7/bai2.html"></a>Bài tập 2
+            </li>
+          </ul>
+        </div>
+        <div class="project" onclick="showTasks(8)">Buổi 8</div>
+        <div class="tasks" id="tasks-8">
+          <ul>
+            <li>
+              <a href="https://nqminh23.github.io/bai1b8/b1.html">Bài tập 1</a>
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/bai2b8/b2.html">Bài tập 2</a>
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/bai3b8/b3.html">Bài tập 3</a>
+            </li>
+          </ul>
+        </div>
+        <div class="project" onclick="showTasks(9)">Buổi 9</div>
+        <div class="tasks" id="tasks-9">
+          <ul>
+            <li>
+              <a href="https://nqminh23.github.io/bt4_b9/bai4.html"
+                >Bài tập 4</a
+              >
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/bt5_b9/bai5.html"
+                >Bài tập 5</a
+              >
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/bt6.1/bai6_1.html"
+                >Bài tập 6.1</a
+              >
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/bt6_2/bai6_2.html"
+                >Bài tập 6.2</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="project" onclick="showTasks(10)">Buổi 10</div>
+        <div class="tasks" id="tasks-10">
+          <ul>
+            <li>
+              <a href="https://nqminh23.github.io/bai1_b10/bai1.html"
+                >Bài tập 1</a
+              >
+            </li>
+            <li>
+              <a href="https://nqminh23.github.io/bai2_b10/bai2.html"
+                >Bài tập 2</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>CONTACT</h2>
+      <div class="contact-info">
+        <p>
+          <a href="#"
+            ><img
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"
+              class="icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://png.pngtree.com/png-clipart/20180626/ourmid/pngtree-instagram-icon-instagram-logo-png-image_3584853.png"
+              class="icon1"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://e7.pngegg.com/pngimages/646/324/png-clipart-github-computer-icons-github-logo-monochrome-thumbnail.png"
+              class="icon"
+          /></a>
+        </p>
+
+        <p>Điện thoại: <span>0123 456 789</span></p>
+        <p>
+          Email:
+          <a>minh@gmail.com</a>
+        </p>
+      </div>
+    </section>
+
+    <script src="webcn.js"></script>
+  </body>
+</html>
